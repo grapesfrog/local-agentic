@@ -1,4 +1,4 @@
-# On-Premises Multi-Agent Task Manager System
+# Local Multi-Agent Task Manager System
 
 A prototype implementation of a self-contained, local multi-agent task management system that demonstrates collaborative capabilities using Python, Agent Development Kit (ADK), Model Context Protocol (MCP), and Agent2Agent (A2A) protocols.
 
