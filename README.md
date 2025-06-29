@@ -502,7 +502,6 @@ GDC-agentic/
 ├── ADK_TESTING_GUIDE.md    # ADK testing documentation
 ├── QUICK_START.md          # Quick start guide
 ├── SETUP_COMPLETE.md       # Setup completion guide
-└── On-Premises Multi-Agent Task Manager_.md # Detailed requirements document
 ```
 
 ## 🔍 Troubleshooting
