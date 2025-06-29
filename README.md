@@ -712,7 +712,7 @@ This project is licensed under the Apache License - see the LICENSE file for det
 
 - Built with [uv](https://github.com/astral-sh/uv) for fast Python package management
 - Uses [MCP](https://modelcontextprotocol.io/) for tool exposure
-- uses [ADK][https://google.github.io/adk-docs/] as the agentic framework
+- uses [ADK](https://google.github.io/adk-docs/) as the agentic framework
 - Implements [A2A](https://github.com/a2aproject/A2A) for inter-agent communication
 - Follows ADK principles for agent development
 - Based on the requirements document by Grace Mollison 
