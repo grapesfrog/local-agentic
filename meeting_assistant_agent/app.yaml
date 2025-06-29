@@ -1,0 +1,28 @@
+name: meeting_assistant_agent
+description: Meeting Assistant Agent for processing meeting notes and delegating tasks
+version: 1.0.0
+
+# Agent configuration
+agent:
+  name: MeetingAssistantAgent
+  description: Processes meeting notes and delegates tasks via A2A protocol
+  model: mistral:latest
+  backend: ollama
+  
+# A2A server configuration for task delegation
+a2a_servers:
+  - name: task_manager_a2a
+    url: http://localhost:8001
+    description: Task Manager A2A server for delegating tasks
+
+# Tools and capabilities
+tools:
+  - name: process_meeting_notes
+    description: Process meeting notes and extract action items
+    a2a_server: task_manager_a2a
+  - name: extract_action_items
+    description: Extract action items from text without delegating
+    a2a_server: task_manager_a2a
+  - name: delegate_task
+    description: Delegate a task to the Task Manager
+    a2a_server: task_manager_a2a 

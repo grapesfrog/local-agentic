@@ -1,0 +1,37 @@
+name: task_manager_agent
+description: Task Manager Agent for managing tasks via MCP protocol
+version: 1.0.0
+
+# Agent configuration
+agent:
+  name: TaskManagerAgent
+  description: Manages tasks using MCP protocol and A2A communication
+  model: mistral:latest
+  backend: ollama
+  
+# MCP server configuration
+mcp_servers:
+  - name: task_mcp_server
+    url: http://localhost:8002
+    description: Local MCP server for task management tools
+
+# A2A server configuration  
+a2a_servers:
+  - name: task_manager_a2a
+    url: http://localhost:8001
+    description: Task Manager A2A server for inter-agent communication
+
+# Tools and capabilities
+tools:
+  - name: add_task
+    description: Add a new task to the system
+    mcp_server: task_mcp_server
+  - name: list_tasks
+    description: List all tasks in the system
+    mcp_server: task_mcp_server
+  - name: mark_task_complete
+    description: Mark a task as complete
+    mcp_server: task_mcp_server
+  - name: delete_task
+    description: Delete a task from the system
+    mcp_server: task_mcp_server 

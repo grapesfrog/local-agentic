@@ -1,0 +1,33 @@
+Team Meeting - Q4 Planning Session
+Date: December 15, 2024
+Attendees: John, Sarah, Mike, Lisa
+
+Agenda:
+1. Q4 Budget Review
+2. Project Timeline Updates
+3. Client Presentation Preparation
+4. Team Performance Review
+
+Discussion Points:
+- Budget numbers need to be finalized by end of week
+- Project timeline has been delayed due to resource constraints
+- Client presentation needs significant updates
+- Team performance metrics show improvement
+
+Action Items:
+Action: Email John about budget numbers and get final figures
+Follow up: Schedule next meeting with Sarah to discuss timeline
+TODO: Update project documentation with new deadlines
+Task: Review quarterly reports and prepare summary
+Action item: Call client about presentation requirements
+Follow-up: Send meeting minutes to all attendees
+
+Next Steps:
+- Budget review meeting on Friday
+- Project timeline update by Monday
+- Client presentation ready by Wednesday
+
+Notes:
+- Consider hiring additional resources for Q1
+- Need to improve communication between teams
+- Client feedback has been positive overall 
