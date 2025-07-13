@@ -36,7 +36,7 @@ MeetingAssistantADKAgent → TaskManagerADKAgent (A2A, http://localhost:8001)
 2. **Clone and setup the project**:
    ```bash
    git clone <repository-url>
-   cd GDC-agentic
+   cd local-agentic
    python setup.py
    ```
 
@@ -439,7 +439,7 @@ uv run pytest tests/test_task_manager.py
 ## 📁 Project Structure
 
 ```
-GDC-agentic/
+local-agentic/
 ├── README.md                 # This file
 ├── pyproject.toml           # Project configuration and dependencies
 ├── setup.py                 # Setup script for easy installation
